@@ -25,9 +25,3 @@ jobs:
 
       - name: Build mod
         run: ./gradlew build
-
-      - name: Upload built mod JAR
-        uses: actions/upload-artifact@v3
-        with:
-          name: WelcomeHomeMod
-          path: build/libs/*.jar

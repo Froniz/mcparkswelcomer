@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "welcomehome",
+  "version": "1.0.0",
+  "name": "Welcome Home",
+  "description": "MCParks Welcome Home",
+  "authors": ["Leroy"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.leroy.mcparkswelcome.Welcomehome"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.19.x"
+  }
+}
